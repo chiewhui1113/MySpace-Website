@@ -1,9 +1,9 @@
 <template>
   <div class="card edit-field">
     <div class="card-body">
-      <label for="edit-post" class="form-label">编辑帖子</label>
+      <label for="edit-post" class="form-label">Edit Post</label>
       <textarea v-model="content" class="form-control" id="edit-post" rows="3"></textarea>
-      <button @click="post_a_post" type="button" class="btn btn-primary btn-sm">发帖</button>
+      <button @click="post_a_post" type="button" class="btn btn-primary btn-sm">Post</button>
     </div>
   </div>
 </template>
