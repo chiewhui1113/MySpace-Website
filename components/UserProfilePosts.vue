@@ -5,7 +5,7 @@
                 <div class="card single-post">
                     <div class="card-body">
                         {{ post.content }}
-                        <button @click="delete_a_post(post.id)" v-if="is_me" type="button" class="btn btn-danger btn-sm">删除</button>
+                        <button @click="delete_a_post(post.id)" v-if="is_me" type="button" class="btn btn-danger btn-sm">Delete</button>
                     </div>
                 </div>
             </div>
